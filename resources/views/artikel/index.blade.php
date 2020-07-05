@@ -1,7 +1,6 @@
 @extends('sbadmin2.master')
 
 @push('scripts')
-
 <script>
     Swal.fire({
         title: 'Berhasil!',
@@ -13,7 +12,5 @@
 @endpush
 
 @section('content')
-
 <h1>TESTING content</h1>
-
 @endsection
