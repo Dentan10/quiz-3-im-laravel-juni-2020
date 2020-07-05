@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function(){
-    return view('welcome');
-});
-
 Route::get('/artikel', 'ArtikelController@index');
 
 // Route::get('/items/create', 'ItemController@create'); // menampilkan halaman form
